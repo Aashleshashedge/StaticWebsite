@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Website</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
 </head>
 
 <body>
@@ -15,7 +16,8 @@
     <nav class="navbar">
         <div class="navbar__container">
             <a href="#home" id="navbar__logo">Aashlesha</a>
-            <div class="navbar__toggle" id="mobile">
+           <!-- <img src="images/wallpaper.jfif"> -->
+            <div class="navbar__toggle" id="mobile-menu">
                 <span class="bar"></span>
                 <span class="bar"></span>
                 <span class="bar"></span>
@@ -30,13 +32,41 @@
                 <li class="navbar__item">
                     <a href="#services" class="navbar__links" id="services-page">Services</a>
                 </li>
+               
                 <li class="navbar__btn">
                     <a href="#sign-up" class="button" id="signup">Sign Up</a>
                 </li>
             </ul>
         </div>
     </nav>
+
+    <!-- Hero Section -->
+    <div class="hero" id="home">
+        <div class="hero__container">
+            <h1 class="hero__heading"> Hire your <span>dev.</span> </h1>
+            <p class="hero__description">Explore the Geek</p>
+            <button class="main__btn"><a href="#">Explore</a></button>
+        </div>
+    </div>
+
+    <!-- About Section  -->
+    <div class="main" id="about">
+        <div class="main__container">
+            <div class="main__img--container">
+                <div class="main__img--card"><i class="fas fa-laptop-code"></i></div>
+            </div>
+            <div class="main__content">
+                <h1>What I do?</h1>
+                <h2>I help businesses grow</h2>
+                <p>Conatct me to know more</p>
+                <button class="main__btn"><a href="#">Contact Me</a></button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Services Section -->
+    <!-- to code -->
     <script src="app.js"></script>
 </body>
 
-</html> 
+</html>
