@@ -219,9 +219,9 @@
 
 .hero__description {
     font-size: 60px;
-    background: #da22ff;
-    background: -webkit-linear-gradient(to right, #9114ff, #da22ff);
-    background: linear-gradient(to right, #8f0eff, #da22ff);
+    background: #FBD786);
+    background: -webkit-linear-gradient(to right, #C6FFDD, #FBD786);
+    background: linear-gradient(to right, #C6FFDD, #FBD786);
     /* convert box gradient into text */
     background-size: 100%;
     -webkit-background-clip: text;
@@ -303,9 +303,9 @@
 .main__btn {
     margin-top: 2rem;
     font-size: 1.8rem;
-    background: #833ab4;
-    background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
-    background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
+    background:#C6FFDD;
+    background: -webkit-linear-gradient(to right,  #d53369, #cbad6d);
+    background: linear-gradient(to right,  #d53369, #cbad6d);
     padding: 20px 60px;
     border: none;
     border-radius: 4px;
@@ -330,7 +330,7 @@
     left: 0;
     width: 0;
     height: 100%;
-    background: #ff1ead;
+    background:#43C6AC ;
     transition: all 0.35s;
     border-radius: 4px;
 }
