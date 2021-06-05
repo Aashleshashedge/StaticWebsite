@@ -81,7 +81,7 @@ const saveLead = async () => {
     console.log(response2);
     console.log(response);
 
-    document.getElementById('myForm').reset();
+    document.getElementById('myForm').requestFullscreen();
     $('#exampleModalCenter').modal('toggle');
 
     $('#exampleModal').modal('toggle');
